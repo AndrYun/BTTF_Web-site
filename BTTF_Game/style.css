@@ -1,0 +1,119 @@
+/* import font */
+@font-face {
+    font-family: PixelGame;
+    src: url(/BTTF_Game/fonts/COMMP___.TTF);
+}
+
+.wrapp {
+    display: flex;
+    margin: 0 auto;
+    border: 3px solid;
+    border-radius: 20px;
+    width: 1000px;
+    height: 500px;
+    background: linear-gradient(109.6deg, rgb(36, 45, 57) 11.2%, rgb(16, 37, 60) 51.2%, rgb(0, 0, 0) 98.6%);
+}
+
+#canvas {
+    width: 1000px;
+    height: 500px;
+}
+
+/* score style */
+.score {
+    display: inline-flex;
+    position: absolute;
+    justify-content: center;
+    gap: 400px;
+    align-items: center;
+    width: 1000px;
+    height: 70px;
+    margin: 0 auto;
+}
+
+/* score live wrapp */
+.score__car {
+    width: 400px;
+    height: 50px;
+    margin: 0 0 0 50px;
+    border: 3px solid;
+    transform: skewX(-30deg);
+}
+
+.score__car-lives {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(109.6deg, rgb(17, 151, 147) 11.2%, rgb(154, 214, 212) 55.4%, rgb(255, 233, 171) 100.2%);
+}
+
+/* score teme wrapp */
+.score__time {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 50px;
+    margin: 0 40px 0 0;
+    transform: skewX(-30deg);
+}
+
+.score__time-contdown {
+    color: #ffffff;
+    font-size: 50px;
+    font-family: 'PixelGame';
+}
+
+/* game over wrapp */
+.gameover {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 500px;
+    height: 150px;
+    margin: 150px 250px;
+    gap: 20px;
+    transition: all 0.3s ease 0s;
+}
+
+.gameover__window {
+    font-family: 'PixelGame';
+    font-size: 40px;
+    color: #53a8b6;
+}
+
+.gameover__restart {
+    font-family: 'PixelGame';
+    font-size: 30px;
+    color: #53a8b6;
+    text-decoration: none;
+}
+.gameover__restart:hover {
+    color:rgb(141, 229, 225);
+    cursor: pointer;
+}
+.gameover__restart:active {
+    color: rgb(105, 170, 167);
+}
+
+/* information wrapp */
+.info {
+    display: flex;
+    position: absolute;
+    width: 500px;
+    height: 200px;
+    border: 3px solid #53a8b6;
+    border-radius: 20px 20px 100px 20px/20px 20px 100px 20px;
+    margin: 280px 485px;
+    background: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+    overflow-y: scroll;
+    transition: all 0.3s ease 0s;
+    opacity: 0;
+}
+.info__board {
+    font-family: 'Arial';
+    font-size: 20px;
+    color: rgb(165, 242, 245);
+    margin: 20px;
+}

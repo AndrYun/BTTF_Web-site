@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BTTF</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="canvas.css">
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+    <!-- import font from google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&family=Raleway:wght@700;800&family=Rubik:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div id="header" class="header__container">
+                <div class="header__logo"></div>
+                <div class="header__logo-2"></div>
+                <div class="header__menu menu">
+                    <div class="menu__burger">
+                        <span></span>
+                    </div> 
+                    <nav class="menu__body">
+                        <ul class="menu__list">
+                            <li id="home_btn" class="menu__item"><a class="menu__link">HOME</a></li>
+                            <li id="movie_btn" class="menu__item"><a class="menu__link">MOVIE</a></li>
+                            <li id="lego_btn" class="menu__item"><a class="menu__link">LEGO</a></li>
+                            <li id="game_btn" class="menu__item"><a class="menu__link">GAME</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="header__button">
+                    <a id="start_btn" class="button button-red">START</a>
+                </div>
+            </div>
+        </header>
+        <section class="block-info">
+            <div class="block-info__container">
+                <div class="block-info__media">
+                    <div class="block-info__title">
+                        <h1>Hero of the trilogy</h1>
+                    </div>
+                    <div class="block-info__image">
+                        <img id="info_img" src="/img/Marty_McFly_1955.png" alt="mcFly">
+                    </div>
+                </div>
+                <div class="block-info__about info-about">
+                    <h2 id="person_name" class="info-about__title">Marty McFly</h2>
+                    <p id="person_info" class="info-about__persons">
+                        Marty McFly is the Back to the Future protagonist who was born in Hill Valley, California to the McFlys, a family of Irish descent. Little is known about the character's life prior to the first Back to the Future film, except for the fact that he set fire to the living-room rug when he was 8 years old (in a statement of Marty's to his future parents). Despite never explicitly being explained in the film, Bob Zemeckis confirmed that Marty met his friend Dr. Emmett "Doc" Brown when he was around 14 after hearing that Brown was a dangerous lunatic. Marty wanted to go and see what it was all about for himself. He snuck into Doc's lab and was fascinated by all his inventions. When Doc caught him, he was glad to have someone interested in his work and their friendship began.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="block-film">
+            <div class="film-slider swiper__container">
+                <div class="film-slider__bg" data-swiper-parallax="-10%"></div>
+                <div class="film-slider__wrapper swiper-wrapper">
+                    <div class="film-slider__slide swiper-slide" data-swiper-parallax-opacity="0" data-swiper-parallax="-300" data-swiper-parallax-duration="500">
+                        <h2 class="film-slider__title" data-swiper-parallax-opacity="0" data-swiper-parallax-scale="0.5">Back to the future I</h2>
+                        <img src="/img/beyond/1.jpeg"></img>
+                    </div>
+                    <div class="film-slider__slide swiper-slide" data-swiper-parallax-opacity="0" data-swiper-parallax="-300" data-swiper-parallax-duration="500">
+                        <img src="/img/beyond/2.jpeg"></img>
+                    </div>
+                    <div class="film-slider__slide swiper-slide" data-swiper-parallax-opacity="0" data-swiper-parallax="-300" data-swiper-parallax-duration="500">
+                        <img src="/img/beyond/3.jpeg"></img>
+                    </div>
+                    <div class="film-slider__slide swiper-slide" data-swiper-parallax-opacity="0" data-swiper-parallax="-300" data-swiper-parallax-duration="500">
+                        <img src="/img/beyond/4.jpeg"></img>
+                    </div>
+                    <div class="film-slider__slide swiper-slide" data-swiper-parallax-opacity="0" data-swiper-parallax="-300" data-swiper-parallax-duration="500">
+                        <img src="/img/beyond/5.jpeg"></img>
+                    </div>
+                    <div class="film-slider__slide swiper-slide" data-swiper-parallax-opacity="0" data-swiper-parallax="-300" data-swiper-parallax-duration="500">
+                        <h2 class="film-slider__title" data-swiper-parallax-opacity="0" data-swiper-parallax-scale="0.2">Back to the future II</h2>
+                        <img src="/img/beyond/6.jpeg"></img>
+                    </div>
+                    <div class="film-slider__slide swiper-slide" data-swiper-parallax-opacity="0" data-swiper-parallax="-300" data-swiper-parallax-duration="500">
+                        <img src="/img/beyond/7.jpeg"></img>
+                    </div>
+                    <div class="film-slider__slide swiper-slide" data-swiper-parallax-opacity="0" data-swiper-parallax="-300" data-swiper-parallax-duration="500">
+                        <img src="/img/beyond/8.jpeg"></img>
+                    </div>
+                    <div class="film-slider__slide swiper-slide" data-swiper-parallax-opacity="0" data-swiper-parallax="-300" data-swiper-parallax-duration="500">
+                        <img src="/img/beyond/9.jpeg"></img>
+                    </div>
+                    <div class="film-slider__slide swiper-slide" data-swiper-parallax-opacity="0" data-swiper-parallax="-300" data-swiper-parallax-duration="500">
+                        <h2 class="film-slider__title" data-swiper-parallax-opacity="0" data-swiper-parallax-scale="0.2">Back to the future III</h2>
+                        <img src="/img/beyond/10.jpeg"></img>
+                    </div>
+                    <div class="film-slider__slide swiper-slide" data-swiper-parallax-opacity="0" data-swiper-parallax="-300" data-swiper-parallax-duration="500">
+                        <img src="/img/beyond/11.png"></img>
+                    </div>
+                    <div class="film-slider__slide swiper-slide" data-swiper-parallax-opacity="0" data-swiper-parallax="-300" data-swiper-parallax-duration="500">
+                        <img src="/img/beyond/12.png"></img>
+                    </div>
+                    <div class="film-slider__slide swiper-slide" data-swiper-parallax-opacity="0" data-swiper-parallax="-300" data-swiper-parallax-duration="500">
+                        <img src="/img/beyond/13.png"></img>
+                    </div>
+                    <div class="film-slider__slide swiper-slide" data-swiper-parallax-opacity="0" data-swiper-parallax="-300" data-swiper-parallax-duration="500">
+                        <img src="/img/beyond/14.png"></img>
+                    </div>
+                    <div class="film-slider__slide swiper-slide" data-swiper-parallax-opacity="0" data-swiper-parallax="-300" data-swiper-parallax-duration="500">
+                        <img src="/img/beyond/15.png"></img>
+                    </div>
+                </div>
+                <!-- arrow nav -->
+                <button id="nxt_btn" class="custom-next"></button>
+                <button id="prev_btn" class="custom-prev"></button>
+            </div>
+        </section>
+        <!-- popup for movie block -->
+        <div class="film-slider__popup">
+            <div class="film-slider__popup-container">
+                <img src="/img/beyond/1.jpeg" alt="zoomPic">
+            </div>
+            <div class="film-slider__popup-close"><span></span></div>
+        </div>
+        <section class="block-lego">
+            <h2 class="block-lego__title">LEGO</h2>
+            <div class="lego-info__container">
+                <div class="lego-info__media info-media">
+                    <div class="info-media__img-1"></div>
+                    <div class="info-media__img-2"></div>
+                    <div class="info-media__img-3"></div>
+                </div>
+                <div class="lego-info__links info-lego">
+                    <div class="info-lego__text">
+                        <p>In 1985, Californian teenager Marty McFly met scientist Emmet “Doc” Brown for the first time, and one of the all-time great movie friendships was born. But equally as famous as the dynamic duo was the car that sped them off on their adventures through time.</p>
+                    </div>
+                    <a class="info-lego__btn" href="https://www.lego.com/en-us/categories/adults-welcome/article/new-back-to-the-future-time-machine-set">Learn more</a>
+                </div>
+            </div>
+        </section>
+        <section class="game-block">
+            <h2 class="game-block__title">GAME</h2>
+            <div class="game-block__container block-game">
+                <div class="block-game__links game-links">
+                    <div class="game-links__info">
+                        <p>
+                        Game pet-project with own pixel created graphics. <br>
+                        Mini game <br>Goal: try to stay alive all time (150s) <br> Manual: <br> ArrowsUp, Down, Left, Right - controll the vehicle <br> Shift - nitro speed (2x time faster) <br> Space - shooting <br> Hints: <br>blackhole teleports you anywhere in the screen <br>shoot to blackhole to multipy your shots <br>don't miss your chance to heal/fuel in last 50 seconds
+                        </p>
+                    </div>
+                </div>
+                <div class="block-game__media game-media">
+                    <div class="game-media__prev">
+                        <canvas id="canvas"></canvas>
+                        <a class="game-media__play">PLAY</a>
+                        <div class="game-media__contdown"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="footer__container">
+                <div class="footer__logo"></div>
+                <div class="footer__links">
+                    <div class="footer__title">
+                        <h3>Follow us:</h3>
+                        <p id="footer__title-p"></p>
+                    </div>
+                    <div class="footer__menu">
+                        <a id="youtube-btn" class="footer__menu-item-1" href="https://www.youtube.com/watch?v=2xL74O4hsqE&list=PLZ_79UgSzW8r6rxiHi9bHYQaIehySxrES"></a>
+                        <a id="inst-btn" class="footer__menu-item-2" href="https://www.instagram.com/backtothefuturehq/"></a>
+                        <a id="facebook-btn" class="footer__menu-item-3" href="https://www.facebook.com/BTTF/"></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <div class="popup">
+            <div class="popup__body">
+                <div class="popup__content">
+                    <canvas id="canvas2"></canvas>
+                    <a class="popup__content-play">PLAY</a>
+                    <div class="popup__content-contdown"></div>
+                    <div class="popup__content-title">Are you ready?</div>
+                    <div class="popup__content-text">
+                        <p>
+                            Marty?! You should come in time. 
+                            Please, use the manual!
+                        </p>
+                        <div class="popup__content-text-gone"></div>
+                    </div>
+                    <div class="popup__content-img"></div>
+                    <div class="popup__content-media">
+                        <p>
+                            ArrowsUp, Down, Left, Right - controll the vehicle <br> Shift - nitro speed (2x time faster) <br> Space - shooting <br> Hints: <br> - blackhole teleports you anywhere in the screen <br> - shoot to blackhole to multipy your shots <br> - don't miss your chance to heal/fuel in last 50 seconds
+                        </p>
+                    </div>
+                </div>
+                <div class="popup__close"><span></span></div>
+            </div>
+        </div>
+    </div>
+    <script src="prevgame.js"></script>
+    <script src="popup.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="/script.js"></script>
+</body>
+</html>
